@@ -1,0 +1,23 @@
+doctype html
+
+html
+
+body
+
+h2 所有資料
+form(action='/tasks', method='POST')
+  |     Task id:
+  br
+  input(type='text', name='id')
+  br
+  |     Task Name:
+  br
+  input(type='text', name='title')
+  br
+  input(type='submit', value='Submit')
+
+
+ul
+- tasks.forEach(function(task){
+              li: a(href='/task/'+ task.id) #{task.id} : #{task.title}
+              - });
