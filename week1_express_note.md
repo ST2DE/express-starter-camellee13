@@ -1,8 +1,8 @@
 # Week1 Express Note
 
-> 問題1: mac系統裝node一直遇到permission的問題
-> 問題2: 沒用engine
-> 問題3: gitignore
+> 1. 問題1: mac系統裝node一直遇到permission的問題
+> 2. 問題2: 沒用engine
+> 3. 問題3: gitignore
 
 ## mac 安裝 Node.js
 
