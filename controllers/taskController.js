@@ -26,10 +26,10 @@ let taskController = {
             , defaults: {
                 title: req.body.title
             }
-        }).spread((Task, created) => {
-            console.log(Task.get({
-                plain: true
-            }))
+        }).then((Task, created) => {
+//            console.log(Task.get({
+//                plain: true
+//            }))
             console.log(created)
         }).then(function () {
             return res.redirect('/tasks');
@@ -50,8 +50,8 @@ let taskController = {
             Task.updateAttributes({
                 title: req.body.title
             })
+            return res.redirect('/tasks');
         });
-        return res.redirect('/tasks');
     },
     // delete a task
     deleteTask: function(req, res) {
