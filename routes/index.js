@@ -8,5 +8,6 @@ module.exports = function (app) {
     // edit a task
     app.get('/tasks/edit', taskController.editTask);
     app.post('/edit', taskController.editList);
+    // delete a task
     app.get('/tasks/delete', taskController.deleteTask);
 };
