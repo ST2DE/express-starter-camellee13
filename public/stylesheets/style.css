@@ -1,0 +1,117 @@
+body {
+}
+
+@media (min-width: 768px) {
+    section {
+        width: 50%;
+        height: 100vh;
+        float: left;
+    }
+    
+    .main-contain {
+    height: 90vh;
+    margin: 5vh 0;
+    }
+    
+    .task-table {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 80vh;
+    margin: 10vh;
+    }
+    
+    .edit-task {
+        height: 50vh;
+        margin: 25vh 0;
+    }
+}
+
+@media (max-width: 768px) {
+    #title {
+        margin-top: 80px;
+    }
+    
+    .main-contain {
+        padding-bottom: 50px;
+    }
+    
+    .task-table {
+        padding: 20px;
+    }
+    
+    .edit-task {
+        padding: 20px;
+    }
+}
+
+
+.left-page {
+    background: linear-gradient(60deg, #96deda 0%, #50c9c3 100%);
+    
+    
+/*
+    background: linear-gradient(60deg, #72afd3 0%, #37ecba 100%);
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+    background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%);
+*/
+}
+
+.right-page {
+    background: #3b3e52;
+    color: #fff;
+}
+
+
+
+#title {
+    margin-bottom: 40px;
+}
+
+#title h1 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 5rem;
+    letter-spacing: .5rem;
+}
+
+#description {
+    margin: 50px 0px 30px 0px;
+    text-align: center;
+}
+
+#description span {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 300;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+
+#logo img {
+    opacity: 0.8;
+}
+
+#input-area {
+    margin: 50px 0;
+}
+
+.control-label {
+    color: #fff;
+}
+
+#task-list span {
+    color: #3b3e52;
+    font-size: 1.6rem;
+    padding: 3px;
+    background: #96deda;
+    border-radius: 50%;
+}
+
+#task-list span:hover {
+    opacity: 0.5;
+}
+
+#task-list .modal {
+    color: #555;
+}

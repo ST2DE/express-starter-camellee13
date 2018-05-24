@@ -77,6 +77,10 @@ typings/
 # next.js build output
 .next
 
+*.DS_Store
+package-lock.json
+
+
 package-lock.json
 © 2018 GitHub, Inc.
 Terms

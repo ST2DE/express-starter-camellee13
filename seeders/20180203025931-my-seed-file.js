@@ -14,10 +14,12 @@ module.exports = {
     */
     return queryInterface.bulkInsert('Tasks', [{
         title: '測試 A',
+//        date: '2018/05/22',
         createdAt : new Date(),
         updatedAt : new Date(),
       }, {
         title: '測試 B',
+//        date: '2018/05/21',
         createdAt : new Date(),
         updatedAt : new Date(),
       }], {});

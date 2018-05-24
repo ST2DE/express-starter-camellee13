@@ -1,7 +1,8 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
   var Task = sequelize.define('Task', {
-    title: DataTypes.STRING,
+//        date: DataTypes.STRING,
+        title: DataTypes.STRING,
   }, {
     classMethods: {
       associate: function(models) {
