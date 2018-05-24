@@ -79,6 +79,8 @@ typings/
 
 *.DS_Store
 package-lock.json
+editTask.html
+allTask.html
 
 
 package-lock.json
